@@ -2,8 +2,13 @@ body img {
 	width: 100%;
 	height: auto;
 	display: block;
+	margin-top: 50px;
 	margin-right: auto;
 	margin-left: auto;
-	padding-top: 25px;
-	padding-bottom: 25px;
+	margin-bottom: 10px;
+}
+
+body p {
+	font-size: 0.85em;
+	margin-bottom: 50px;
 }
