@@ -1,6 +1,8 @@
 * {
 /*	font-family: monospace;
 */	font-size: .95em;
+	color: none;
+	text-decoration: none;
 }
 
 img {
