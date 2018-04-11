@@ -1,28 +1,28 @@
 * {
-/*	font-family: monospace;
-*/	font-size: .95em;
+/*  font-family: monospace;
+*/  font-size: .95em;
 }
 
 img {
-	width: 100%;
-	height: auto;
-	display: block;
-/*	margin-top: 50px;
-*/	margin-right: auto;
-	margin-left: auto;
-	margin-bottom: 10px;
+  width: 100%;
+  height: auto;
+  display: block;
+/*  margin-top: 50px;
+*/  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 10px;
 }
 
 img:nth-of-type(1) {
-	margin-top: 5%;
+  margin-top: 5%;
 }
 
 /*body p {
-	margin-bottom: 100px;
+  margin-bottom: 100px;
 }*/
 
 p.t-title-etc {
-	margin-bottom: 12.5%;
+  margin-bottom: 12.5%;
 }
 
 @media (max-width: 500px) {
@@ -32,36 +32,18 @@ p.t-title-etc {
 /* ---------- Resume / CV all headings & paragraphs ---------- */
 
 div.t-cv-text {
-	margin-top: 0em;
-}
+/*  font-size: 1em;
+*/}
 
 div.t-cv-text p {
-	margin: 0 0 2.5em 1%;
-	letter-spacing: 1px;
-	white-space: nowrap;
-}
-
-div.t-cv-text h5 {
-	letter-spacing: 2px;
-}
-
-div.t-cv-text a:hover {
-	opacity: .75;
+  margin: 0 0 2.5em 1%;
+  letter-spacing: 1px;
+  white-space: nowrap;
 }
 
 @media (max-width: 500px) {
     div.t-cv-text p {font-size: 2.5vw;}
     div.t-cv-text h4 {font-size: 1em;}
-}
-
-@media (max-width: 500px) {
-    #t-links-section-text p {font-size: 3vw;}
-}
-
-@media (max-width: 768px) {
-	div.t-cv-text p {white-space: normal;}
-	div.t-cv-text {margin-top: 2em;
-}
 }
 
 
@@ -94,7 +76,7 @@ div.t-cv-text a:hover {
 }
 
 #t-title-1:hover {
-	opacity: .75;
+  opacity: .75;
 }
 
 #t-nav-links {
@@ -134,11 +116,10 @@ a:hover, a:focus {
 }
 
 .navbar-brand {
-  float: left;
   height: 35px;
   padding: 5px 10px; 
-  letter-spacing: 1px; /*CHANGED*/
-  font-size: 1.15em;
+  letter-spacing: 2px; /*CHANGED*/
+  font-size: 1.5em;
 /*  line-height: 20px;*/
 }
 
@@ -190,7 +171,7 @@ a:hover, a:focus {
 }
 
 #t-nav-link-mobile:hover {
-	opacity: .75;
+  opacity: .75;
 }
 
 .navbar #t-navbar-white {
@@ -200,26 +181,39 @@ a:hover, a:focus {
 
 .navbar-brand.container {
   background-color: white;
-  margin-top: 3px;
+  margin-top: 1px;
+  margin-left: 0;
+  margin-right: -10PX;
 }
 
 /* ----- Border or Drop Shadow on Mobile Navbar ----- */
 
 .t-nav2-container {
-	border-bottom: 1px solid rgba(0,0,0,.03);
-    box-shadow: 0 5px 5px rgba(0,0,0,0.05);
+  /*border-bottom: 1px solid rgba(0,0,0,.05);*/
+    /*box-shadow: 0 5px 5px rgba(0,0,0,0.05);*/
 }
 
 .navbar-nav > li > a {
     padding-top: 0px;
     padding-bottom: 0px;
-    line-height: 3em;
+    line-height: 2em;
 }
 
 .navbar-collapse {
     padding-right: 15px;
     padding-left: 5px;
-    margin-bottom: 7px;
-    -webkit-box-shadow: none;
-    box-shadow: none;
+    padding-top: 0;
+    margin-bottom: 30px;
+    margin-top: 0;
+    border-top: none;
+}
 
+.navbar-toggle {
+    position: relative;
+    float: left;
+ }
+
+.navbar-header {
+  padding-bottom: 0;
+  margin-bottom: 0;
+ }
