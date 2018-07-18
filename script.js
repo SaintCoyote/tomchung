@@ -1,4 +1,7 @@
+// variables ––––––––––––––––––––––––––––––––––––––––––––––––––
+
 var a = [
+
 	"End of Everything, Oil and Acrylic on Canvas, 144 x 216 in. 2018",
 	"End of Everything (Detail)",
 	"End of Everything (Detail)",
@@ -79,7 +82,15 @@ var a = [
 	"Asian Explosion, Oil on Canvas, 96 x 80 in. 2010"
 ]
 
+
+// script ––––––––––––––––––––––––––––––––––––––––––––––––––
+
+
 load();
+
+
+// functions ––––––––––––––––––––––––––––––––––––––––––––––––––
+
 
 function load() {
 	for(i = a.length; i > 0 ; i--){
