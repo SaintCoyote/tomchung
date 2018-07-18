@@ -82,15 +82,15 @@ var a = [
 load();
 
 function load() {
-	for(i = 0; i < a.length; i++){
-		  $("#container").prepend(
+	for(i = a.length; i > 0 ; i--){
+		  $("#container").append(
 		    "<a target='new' href='images/full/"
-		    + (i+1)
+		    + (i)
 		    + ".jpg'><img src='images/thumb/"
-		    + (i+1)
+		    + (i)
 		    + ".jpg'></a>"
  			+ "<p class='t-title-etc'>"
- 			+ a[a.length-(i+1)]
+ 			+ a[a.length-(i)]
  			+ "</p>"
 		  ) 
 	}
