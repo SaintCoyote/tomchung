@@ -86,13 +86,75 @@ var a = [
 // script ––––––––––––––––––––––––––––––––––––––––––––––––––
 
 
-load();
+loadNavbar();
+
+// loadHeader();
+
+loadImages();
 
 
 // functions ––––––––––––––––––––––––––––––––––––––––––––––––––
 
 
-function load() {
+
+// function loadHeader() {
+// 	$("body").append(
+// 		+ '<div class="col-xs-0 col-sm-1 col-md-2 col-lg-3"></div>'
+// 		+ '<div class="col-xs-12 col-sm-10 col-md-8 col-lg-6">'
+// 		+ 		'<div class="t-nav1-container hidden-xs">'
+// 		+ 			'<div class="row">'
+// 		+ 				'<div class="col-xs-12">'
+// 		+ 					'<a href="index.html"><h1 class="t-center" id="t-title-1">Tom Chung</h1></a>'
+// 		+ 				'</div>'
+// 		+ 			'</div>'
+// 		+ 			'<div class="row">'
+// 		+ 				'<div class="col-xs-12">'
+// 		+ 					'<div class="t-center" id="t-nav-links">'
+// 		+ 						  '<a href="index.html"><span class="t-left-cap">Home</a>'
+// 		+ 						  '<span class="t-slash">/</span>'
+// 		+ 						  '<a href="images.html">Images</a>'
+// 		+ 						  '<span class="t-slash">/</span>'
+// 		+ 						  '<a href="info.html">Information</a>'
+// 		+ 						  '<span class="t-slash">/</span>'
+// 		+ 						  '<a href="links.html">Links</a>'
+// 		+ 					'</div>'
+// 		+ 				'</div>'
+// 		+ 			'</div>'
+// 		+ 		'</div>'
+// 		+		'<div id="container"></div>'
+//  	+		'<br><br><br><br><br>'
+// 		+	'</div>	'
+// 	)
+// }
+
+function loadNavbar() {
+	  $("body").prepend(
+	  	'<nav class="t-nav2-container navbar navbar-default hidden-lg hidden-md hidden-sm">'
+		+  '<div class="container-fluid" id="t-navbar-white">'
+		+    '<div class="navbar-header">'
+		+      '<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">'
+		+         '<span class="sr-only">Toggle navigation</span>'
+		+         '<span class="icon-bar"></span>'
+		+         '<span class="icon-bar"></span>'
+		+         '<span class="icon-bar"></span>'
+		+       '</button>'
+		+       '<a class="navbar-brand container" href="index.html">Tom Chung</a>'
+		+     '</div>'
+		+     '<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">'
+		+       '<ul class="nav navbar-nav navbar-right">'
+		+       	'<li><a href="index.html" id="t-nav-link-mobile">&nbsp; Home</a></li>'
+		+       	'<li><a href="images.html" id="t-nav-link-mobile">&nbsp; Images</a></li>'
+		+         '<li><a href="info.html" id="t-nav-link-mobile">&nbsp; Information</a></li>'
+		+         '<li><a href="links.html" id="t-nav-link-mobile">&nbsp; Links</a></li>'
+		+       '</ul>'
+		+     '</div>'
+		+   '</div>'
+		+ '</nav>'
+  )
+	
+}
+
+function loadImages() {
 	for(i = a.length; i > 0 ; i--){
 		  $("#container").append(
 		    "<a target='new' href='images/full/"
@@ -106,3 +168,4 @@ function load() {
 		  ) 
 	}
 }
+
