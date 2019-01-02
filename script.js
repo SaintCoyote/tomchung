@@ -207,7 +207,7 @@ function loadNavbar() {
 		+       	'<li><a href="index.html" id="t-nav-link-mobile">&nbsp; Home</a></li>'
 		+       	'<li><a href="images.html" id="t-nav-link-mobile">&nbsp; Images</a></li>'
 		+         '<li><a href="info.html" id="t-nav-link-mobile">&nbsp; Information</a></li>'
-		+         '<li><a href="links.html" id="t-nav-link-mobile">&nbsp; Links</a></li>'
+		+         '<li><a href="https://www.instagram.com/tomchungart/" id="t-nav-link-mobile">&nbsp; Instagram</a></li>'
 		+       '</ul>'
 		+     '</div>'
 		+   '</div>'
