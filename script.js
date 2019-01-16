@@ -86,7 +86,7 @@ var artist = {
 		"2 Mothers",
 		"\"Everything is Sacred\" Installation images<br>performance footage by Justin Fulkerson and Ed Eagerton",
 		"\"Everything is Sacred\" Installation images<br>performance footage by Justin Fulkerson and Ed Eagerton",
-		"\"Everything is Sacred\" Installation images<br>performance footage by Justin Fulkerson and Ed Eagerton",
+		"Footage from \"We Present You: A Buffering\" Allison Akootchook Warden and Tom Chung",
 		"\"Everything is Sacred\" Installation images<br>performance footage by Justin Fulkerson and Ed Eagerton",
 		"\"Everything is Sacred\" Installation images<br>performance footage by Justin Fulkerson and Ed Eagerton",
 		"\"Everything is Sacred\" Installation images<br>performance footage by Justin Fulkerson and Ed Eagerton",
@@ -213,7 +213,6 @@ function loadNavbar() {
 		+   '</div>'
 		+ '</nav>'
   )
-	
 }
 
 function loadImages() {
