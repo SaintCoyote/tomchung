@@ -123,7 +123,6 @@ var artist = {
 		"I Wish I Could Quit You (Detail)",
 		"Bear Boobs, Acrylic on Canvas, 62 x 144 in. 2014",
 		"Bear Books (Detail)",
-		"Gay Tooth",
 		"From the Depths, Acrylic on Canvas, 144 x 62 in. 2014",
 		"From the Depths (In Progress Detail)",
 		"Highway 1, Watercolor on Paper, 23 x 28 in. 2014",
